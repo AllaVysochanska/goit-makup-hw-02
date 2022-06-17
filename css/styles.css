@@ -19,6 +19,11 @@ body {
 ul {
   list-style: none;
 }
+
+.link {
+  text-decoration: none;
+}
+
 /* основной цвет текста #757575 (абзацы) */
 /* вторичный цвет текста #212121 (заголовки h2,h3)*/
 /* акцентный цвет #2196f3 */
@@ -55,7 +60,6 @@ ul {
   color: var(--title-text-color);
 
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -124,13 +128,13 @@ ul {
 }
 
 .feature-list .text {
-  font-size: 14px;
   line-height: 1.71;
 }
 
 /* Команда */
 .team .title {
   color: var(--title-text-color);
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
